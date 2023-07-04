@@ -1,29 +1,3 @@
-# Go build and test files
-*.exe
-*.dll
-*.so
-*.dylib
-*.test
-*.out
-*.prof
-
-# Go testing directories
-/vendor/
-/.cache/
-/.idea/
-/.vscode/
-
-# Go binary dependencies
-/bin/
-/pkg/
-
-# Go documentation
-/doc/
-
-# Go development tools
-.vscode/
-.idea
-
-# Operating System-generated files
-Thumbs.db
-.DS_Store
+build/bin
+node_modules
+frontend/dist
