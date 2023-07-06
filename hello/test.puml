@@ -1,0 +1,25 @@
+@startuml test
+class Space{
+   id
+   name
+   members
+   gmtCreate
+   gmtModified
+}
+
+class DataSource{
+    id
+    name
+    type
+    accessId
+    accessKey
+    jdbcUrl
+    username
+    password
+    gmtCreate
+    gmtModified
+    spaceId
+}
+
+Space --> DataSource
+@enduml
